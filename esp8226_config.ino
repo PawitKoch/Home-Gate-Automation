@@ -15,9 +15,9 @@ aREST rest = aREST(client);
 // Unique ID to identify the device for cloud.arest.io
 char* device_id = "p4w1tk";
 
-// WiFi parameters
-const char* ssid = "TOTFTTX_32_EXT";
-const char* password = "0817546225";
+// WiFi parameters (enter)
+const char* ssid = ""; 
+const char* password = "";
 
 // Functions
 void callback(char* topic, byte* payload, unsigned int length);
